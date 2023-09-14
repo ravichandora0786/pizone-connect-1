@@ -1,0 +1,58 @@
+/* eslint-disable prettier/prettier */
+import { ERROR_MESSAGES } from './messages';
+
+export const ERROR_CODES = {
+  USER_NOT_FOUND: {
+    code: 'USER_NOT_FOUND',
+    message: ERROR_MESSAGES.USER_NOT_FOUND,
+  },
+  LEAVES_NOT_FOUND: {
+    code: 'LEAVES_NOT_FOUND',
+    message: ERROR_MESSAGES.LEAVES_NOT_FOUND,
+  },
+  HOLIDAY_NOT_FOUND: {
+    code: 'HOLIDAY_NOT_FOUND',
+    message: ERROR_MESSAGES.HOLIDAY_NOT_FOUND,
+  },
+    ROLE_NOT_FOUND: {
+    code: 'ROLE_NOT_FOUND',
+    message: ERROR_MESSAGES.ROLE_NOT_FOUND,
+  },
+  WROND_ID: {
+    code: 'WROND_ID',
+    message: ERROR_MESSAGES.WRONG_ID,
+  },
+  WROND_PASSWORD: {
+    code: 'WROND_PASSWORD',
+    message: ERROR_MESSAGES.WRONG_PASSWORD,
+  },
+  WORK_FORM_HOME_NOT_FOUND: {
+    code: 'WORK_FORM_HOME_NOT_FOUND',
+    message: ERROR_MESSAGES.WORK_FORM_HOME_NOT_FOUND,
+  },
+  USER_ALREADY: {
+    code: 'USER_ALREADY',
+    message: ERROR_MESSAGES.USER_ALREADY,
+  },
+  EXISTING_LEAVE: {
+    code: 'EXISTING_LEAVE',
+    message: ERROR_MESSAGES.EXISTING_LEAVE,
+  },
+  EXISTING_WORK: {
+    code: 'EXISTING_WORK',
+    message: ERROR_MESSAGES.EXISTING_WORK,
+  },
+  INVALID_DATE_RANGE: {
+    code: 'INVALID_DATE_RANGE',
+    message: ERROR_MESSAGES.INVALID_DATE_RANGE,
+  },
+
+
+
+
+  INVALID_CREDENTIALS: {
+    code: 'INVALID_CREDENTIALS',
+    message: ERROR_MESSAGES.INVALID_CREDENTIALS,
+  },
+
+};
